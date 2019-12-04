@@ -1,4 +1,8 @@
 .classpath
 .project
 .settings
+.idea
+jfiles
+aufgabeC.iml
+target
 bin
