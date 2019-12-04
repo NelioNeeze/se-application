@@ -31,7 +31,10 @@ public class Article implements Entity {
 	 * @param price Article price.
 	 */
 	public Article( final String name, final String price ) {
+
 		this( null, name, price );
+		setPrice(price);
+
 	}
 
 	/**
@@ -96,7 +99,12 @@ public class Article implements Entity {
 	 * @return self reference.
 	 */
 	public Article setPrice( final String price ) {
-		this.price = price;
+
+		if(price != null){
+			if(Double.parseDouble(price) < 0.0) this.price = "0.00";
+		} else
+			this.price = price;
+
 		return this;
 	}
 
