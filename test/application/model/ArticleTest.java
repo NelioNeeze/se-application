@@ -39,7 +39,7 @@ public class ArticleTest {
         Article article1 = new Article( articleNameList.get(0), articlePriceList.get(0));
         Article article2 = new Article( articleNameList.get(1), articlePriceList.get(1));
         Article article3 = new Article( articleNameList.get(2), articlePriceList.get(2));
-        Article article4 = new Article( articleNameList.get(3) , articlePriceList.get(3));
+        Article article4 = new Article( articleNameList.get(3), articlePriceList.get(3));
         Article article5 = new Article( articleNameList.get(4), articlePriceList.get(4));
 
         articleList.add(article1);

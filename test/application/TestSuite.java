@@ -1,5 +1,6 @@
 package application;
 
+import application.model.ArticleTest;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
@@ -17,6 +18,7 @@ import application.model.CustomerTest;
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
 	CustomerTest.class,
+		ArticleTest.class
 })
 public class TestSuite {
 
