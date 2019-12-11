@@ -101,7 +101,7 @@ public class Article implements Entity {
 	public Article setPrice( final String price ) {
 
 		if(price != null){
-			if(Double.parseDouble(price) < 0.0) this.price = "0.00";
+			if(price.charAt(0) == '-') this.price = "0.00";
 		} else
 			this.price = price;
 
