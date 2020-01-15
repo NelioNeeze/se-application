@@ -1,0 +1,32 @@
+1.)
+    - Filialenmitarbeiter
+    - Kunde
+    - Wartungsarbeiter
+
+2.)
+    - Kunde -
+
+    US#010.01: Als Kunde moechte ich einen Account auf der Website anlegen.
+    US#010.02: Als Kunde moechte ich eine Vr-Brille ausleihen.
+    US#010.03: Als Kunde moechte ich ueber den Zustand eines Geraetes beschweren.
+    US#010.04: Als Kunde moechte ich verschiedene Geraete in der Filiale testen.
+    US#010.05: Als Kunde moechte ich eine Vr-Brille zurueckgeben.
+
+
+    - Filialenmitarbeiter -
+
+    US#020.01: Als Filialenmitarbeiter kann ich den Status eines Produktes (im System) aendern.
+    US#020.02: Als Filialenmitarbeiter kann ich abkassieren.
+    US#020.03: Als Filialenmitarbeiter kann ich Geraete aushaendigen.
+    US#020.04: Als Filialenmitarbeiter kann ich Geraete nach dem Verleih entgegennehmen.
+    US#020.05: Als Filialenmitarbeiter kann ich Kunden beraten.
+
+
+    - Wartungsarbeiter -
+
+    US#030.01: Als Wartungsarbeiter kann ich VR-Brillen reparieren.
+    US#030.02: Als Wartungsarbeiter kann ich VR-Brillen saeubern.
+    US#030.03: Als Wartungsarbeiter kann ich VR-Brillen ins Lager einsortieren.
+    US#030.04: Als Wartungsarbeiter kann ich den Status eines Produktes (im System) aendern.
+    US#030.05: Als Wartungsarbeiter kann ich den Zustand des Artikels nach dem Verleih bewerten.
+
