@@ -1,0 +1,74 @@
+Name und Identifikationsnummer:
+
+    UC 1.01. : Status eines Produktes im System aendern 
+
+Beschreibung:
+
+    Wenn ein Produkt ausgeliehen wird, muss dies von einem Mitarbeiter im System notiert werden. Der Status aendert 
+    sich in diesem Fall von "verfuegbar" zu "ausgeliehen". 
+
+Beteiligte Akteure:
+   
+    Der Status eines Produktes kann entweder von einer Filialenfachkraft oder von einem Wartungsarbeiter geaendert 
+    werden.
+
+Status:
+
+    "Verfuegbar (Optimum)", "Ausgeliehen", "In Reinigung", "In Reperatur"
+
+Auslöser:
+    Sobld ein Geraet ausgeliehen / zurueckgebracht oder repariert / gereinigt werden muss, muss sich der Status im 
+    System fuer dieses Geraet aendern.
+ 
+Vorbedingungen:
+    
+    Ein Geraet muss dafuer im System registriert sein.
+    
+Nachbedingung/Ergebnis:
+
+    Das Geraet ist wieder "verfuegbar".
+
+Standardablauf:
+
+    Nachdem ein Geraet ausgeliehen und in gutem Zustand wieder zurueckgebracht wurde, wird das Geraet wieder im Lager 
+    einsortiert und der Status aendert sich im System auf "verfuegbar". 
+
+Änderungsgeschichte:
+
+    1.0, Noah, 17. Januar 2020
+
+---------------------------------------------------------------------------------------------------------------------
+
+Name und Identifikationsnummer:
+
+    UC 2.01. : Geraet ausleihen
+
+Beschreibung:
+
+    Der Kunde leiht sich eine VR-Brille aus.
+
+Beteiligte Akteure:
+   
+    Beim Prozess des Ausleihens sind der Kunde und der Filialenfacharbeiter beteiligt.
+
+Auslöser:
+   
+    Der Kunde kommt in die Filiale und entscheidet sich fuer ein Produkt das er/sie ausleigen will. 
+ 
+Vorbedingungen:
+    
+    Damit ein Geraet ausgeliehen werden kann, muss der Kunde zuerst den vollen Betrag gezahlt haben.
+    
+Nachbedingung/Ergebnis:
+
+    Nach dem Verleih der Brille hat sich der Status im System auf "ausgeliehen" geraendert und dieses Geraet steht 
+    fuer die ausgeliehene Zeit nicht mehr fuer andere Kunden zur Verfuegung.
+
+Standardablauf:
+
+    Der Kunde kommt in die Filiale und entschidet sich fuer eine VR-Brille seiner/ihrer Wahl, bezahlt, hinterlegt 
+    seine/ihre persoenliche daten und bekommt das Geraet ausgehaendigt und kann dann die Filiale inkl. Gerat verlassen.
+
+Änderungsgeschichte:
+
+    1.0, Noah, 17. Januar 2020
